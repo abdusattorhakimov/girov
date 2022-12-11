@@ -1,0 +1,198 @@
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/poppins-v20-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v20-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/poppins-v20-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+  background-color: #262727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url(../imeges/Ellipse\ 5.png);
+  background-repeat: no-repeat;
+  width: 1602px;
+  border: 2px solid;
+  background-color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #232527;
+}
+.happy-titil {
+  padding-top: 108px;
+  padding-bottom: 98px;
+}
+.hero-container {
+  box-shadow: 0px 4px 21px rgba(157, 175, 181, 0.25);
+  backdrop-filter: blur(37.5px);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 79px 80px 82px 90px;
+}
+
+.client-container {
+  padding-left: 14.3rem;
+  padding-right: 15.3rem;
+  padding-bottom: 10.3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(18, 1fr);
+  gap: 15px;
+}
+.happy-titil {
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 1.5;
+  color: #758091;
+}
+.item {
+  box-shadow: 0px 3.8408303260803223px 20.16436004638672px 0px #9dafb540;
+  border: 1px solid #e9ecf2;
+  border-radius: 16px;
+}
+.item-1 {
+  grid-column: 1/2;
+  grid-row: 1/12;
+}
+.istiak-div {
+  /* width: 27rem; */
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.sunt-img {
+  height: 266px;
+}
+.ahmed-paragriph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+}
+.comint-titel {
+}
+.comint-paragriph {
+  display: block;
+  margin-bottom: 7px;
+}
+.logo-img {
+}
+.item-2 {
+  display: flex;
+  grid-column: 2/4;
+  grid-row: 1/8;
+}
+.deb-div {
+  padding: 2.1rem;
+}
+.est-img {
+  width: 271px;
+}
+.item-3 {
+  padding: 1.5rem;
+  display: flex;
+  grid-column: 4/5;
+  grid-row: 1/7;
+}
+.ahmed-div {
+  padding-left: 2rem;
+}
+.nazmul-img {
+  width: 47px;
+  height: 47px;
+}
+.karim-img {
+  margin-bottom: 1.7rem;
+}
+.item-4 {
+  display: flex;
+  grid-column: 1/2;
+  grid-row: 12/19;
+  padding-left: 1.3rem;
+  padding-top: 1.8rem;
+  padding-right: 1.4rem;
+  gap: 1.3rem;
+}
+.ahmoon-div {
+}
+.item-5 {
+  grid-column: 2/4;
+  grid-row: 8/13;
+  padding-left: 5.1rem;
+  padding-top: 2.3rem;
+}
+.velit-div {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.saimoon-titel {
+  padding-top: 1.3rem;
+}
+.item-6 {
+  padding-top: 2.6rem;
+  padding-left: 4.7rem;
+  grid-column: 2/4;
+  grid-row: 13/18;
+}
+.sakib-titel {
+  padding-top: 1.2rem;
+}
+.sakib-div {
+  gap: 1.5rem;
+  /* width: 6rem; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.item-7 {
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  grid-column: 4/5;
+  grid-row: 7/14;
+  display: flex;
+  gap: 1.4rem;
+}
+.amir-div {
+}
+.enim-paragriph {
+  margin-bottom: 1.6rem;
+}
